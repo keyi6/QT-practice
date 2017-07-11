@@ -104,6 +104,24 @@ void Widget::calculate()
             temp = temp.mid(0, t);
             temp.replace("\n", "");
             flag = false;
+            if (temp[temp.length() - 1] == ')')
+            {
+                int cnt = 0;
+                for (int i = temp.length() - 1; i >= 0; i --) {
+                    if (temp[i] == ')')
+                        ++ cnt;
+                    if (temp[i] == '('){
+                       -- cnt;
+                        if (cnt == 0) {
+                            temp = temp + temp.mid(i - 1, temp.length() - i + 1);
+                            curExpression = temp;
+                            flag = true;
+                            break;
+                       }
+                    }
+                }
+            }
+            else {
             for (int i = temp.length() - 1; i >= 0 && !flag; i --)
             {
                 if (temp[i] == '+' || temp[i] == '*' || temp[i] == '/')
@@ -121,6 +139,7 @@ void Widget::calculate()
                     curExpression = temp;
                     flag = true;
                 }
+            }
             }
 
             if (!flag)
