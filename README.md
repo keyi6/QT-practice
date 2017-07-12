@@ -60,3 +60,6 @@ canvas.h & canvas.cpp : provide painting area
 
 3. preview
 ![](QPaintist/Screenshot1.png)
+
+4. hint
+**Please copy folder assests to the application dir**
