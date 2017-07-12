@@ -1,17 +1,19 @@
+[To Git Page](https://cjhahaha.github.io/QT-practice/)
+
 ##  Calculator
 1. contents
 - calculator.pro
 - calculator.pro.user
 - header file/
-	- expression.h
-	- widget.h
+	-- expression.h
+	-- widget.h
 - source file/
-	- expression.cpp
-	- widget.cpp
+	-- expression.cpp
+	-- widget.cpp
 - assests
-	- icon.qrc
-	- icon.rc
-	- app.ico
+	-- icon.qrc
+	-- icon.rc
+	-- app.ico
 
 /*
 expression.h & expression.cpp : convert expression into values
@@ -34,19 +36,19 @@ string res = e -> getValue();
 - QPaintist.pro
 - QPaintist.pro.user
 - header file/
-	- canvas.h
-	- widget.h
+	-- canvas.h
+	-- widget.h
 - source file/
-	- canvas.cpp
-	- widget.cpp
+	-- canvas.cpp
+	-- widget.cpp
 - assests/
-	- circle.png
-	- clear.png
-	- line.png
-	- penColor.png
-	- penWeight.png
-	- polygon.png
-	- square.png
+	-- circle.png
+	-- clear.png
+	-- line.png
+	-- penColor.png
+	-- penWeight.png
+	-- polygon.png
+	-- square.png
 	
 /*
 canvas.h & canvas.cpp : provide painting area
@@ -54,7 +56,7 @@ canvas.h & canvas.cpp : provide painting area
 
 2. functions
 - paint
-- add basic shape, such as line, circle, polygon, square and so on
+- add basic shape, such as line, circle, polygon, square and etc.
 
 3. preview
 ![](QPaintist/Screenshot1.png)
