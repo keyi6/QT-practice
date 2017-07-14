@@ -34,17 +34,20 @@ void Canvas::mousePressEvent(QMouseEvent *e) {
     if (drawPolygon){
         grabPen();
 
-        if (e -> button() == Qt::RightButton) {
-            painter -> drawLine(polygon[polygon.size() - 1], polygon[0]);
-            polygon.clear();
+        if (e -> button() == Qt::RightButton){
+            if (!polygon.empty()) {
+                polygon.push_back(polygon[0]);
+                for  (int i = 1; i < polygon.size(); i ++)
+                    qDebug() << polygon[i] ,
+                    painter -> drawLine(polygon[i - 1], polygon[i]);
+
+                polygon.clear();
+            }
         }
         else {
-            if (!polygon.empty())
-                painter -> drawLine(polygon[polygon.size() - 1], e -> pos());
-
+            polygon.push_back(e -> pos());
             pen.setWidth(penWeight + 5);
             painter -> setPen(pen);
-            polygon.push_back(e -> pos());
             painter -> drawPoint(e -> pos());
         }
 
