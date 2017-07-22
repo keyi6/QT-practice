@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>assets/im_reverse.png</file>
+        <file>assets/im.png</file>
+        <file>assets/user.png</file>
+        <file>assets/me.png</file>
+        <file>assets/group.png</file>
+        <file>assets/person.png</file>
+        <file>assets/person2.png</file>
+        <file>assets/person3.png</file>
+        <file>assets/group2.png</file>
+    </qresource>
+</RCC>

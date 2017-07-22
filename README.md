@@ -63,3 +63,22 @@ canvas.h & canvas.cpp : provide painting area
 
 4. hint
 **Please copy folder assests to the application dir**
+// I don't know about qrc that time...
+
+
+## IM
+1. contents
+![](IM/content.png)
+
+
+2. functions
+- Instant message based on UDP (chat with one & group chat)
+- file transfer based on TCP
+- record chat history
+
+3. preview
+- login dialog
+- chat widget
+![](IM/Screenshot2.png)
+- file transfer
+![](IM/Screenshot3.png)
