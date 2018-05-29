@@ -26,7 +26,7 @@ string res = e -> getValue();
 - consecutive calculation
 
 3. preview
-![](calculator/Screenshot1.png) 
+![](./calculator/screenshot1.png) 
 
 
 ## QPaintist
