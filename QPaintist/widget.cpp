@@ -22,7 +22,7 @@ Widget::Widget(QWidget *parent) :
         clickedStatus[i] = 0;
 
         QIcon temp;
-        temp.addFile(QDir::currentPath() + "/assets/" + Ui::altInfo[i] + ".png");
+        temp.addFile(":/new/prefix1/assets/" + Ui::altInfo[i] + ".png");
 
         iconBtn[i] = new QPushButton(this);
         iconBtn[i] -> setGeometry(0, i * btnHeight, offsetX, btnHeight + 1);

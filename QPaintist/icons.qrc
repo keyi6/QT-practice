@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>assets/circle.png</file>
+        <file>assets/clear.png</file>
+        <file>assets/line.png</file>
+        <file>assets/penColor.png</file>
+        <file>assets/penWeight.png</file>
+        <file>assets/polygon.png</file>
+        <file>assets/square.png</file>
+    </qresource>
+</RCC>
