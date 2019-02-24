@@ -45,7 +45,7 @@ string res = e -> getValue();
 ## QPaintist
 
 1. preview
-   ![](QPaintist/Screenshot1.png)
+   ![](./QPaintist/Screenshot1.png)
 
 2. contents
 
@@ -90,12 +90,12 @@ canvas.h & canvas.cpp : provide painting area
 
 - login dialog
 - chat widget
-  ![](/Users/cjhahaha/temp/QT-practice/IM/Screenshot2.png)
+  ![](./IM/Screenshot2.png)
 - file transfer
-  ![](/Users/cjhahaha/temp/QT-practice/IM/Screenshot3.png)
+  ![](./IM/Screenshot3.png)
 
 2. contents
-   ![](IM/content.png)
+   ![](./IM/content.png)
 
 3. functions
 
